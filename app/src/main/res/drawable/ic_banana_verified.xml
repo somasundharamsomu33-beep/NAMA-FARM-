@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Back Banana -->
+    <path android:pathData="M24,45 C45,35 85,45 105,75 C95,85 75,75 55,68 C35,60 25,50 24,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="40"
+                android:endX="100"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDD835" />
+                <item android:offset="1.0" android:color="#FBC02D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Front Banana -->
+    <path android:pathData="M20,52 C45,45 80,58 98,90 C84,96 64,88 44,78 C30,70 22,60 20,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="50"
+                android:endX="98"
+                android:endY="92"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFEE58" />
+                <item android:offset="0.7" android:color="#FDD835" />
+                <item android:offset="1.0" android:color="#F57F17" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Banana Stalk Crown -->
+    <path
+        android:fillColor="#558B2F"
+        android:pathData="M16,48 C15,44 18,40 22,42 C26,44 24,56 18,54 Z" />
+    <!-- Tips -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M97,88 C100,92 98,94 95,92 Z" />
+</vector>

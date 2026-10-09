@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Earthy Potato Body -->
+    <path android:pathData="M25,60 C22,40 45,28 75,32 C100,36 108,55 105,80 C102,102 75,108 50,105 C26,102 28,78 25,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="35"
+                android:endX="90"
+                android:endY="100"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D7CCC8" />
+                <item android:offset="0.4" android:color="#A1887F" />
+                <item android:offset="1.0" android:color="#6D4C41" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Potato Eyes / Dimples -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M45,48 C48,48 48,51 45,51 C42,51 42,48 45,48 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M78,52 C81,52 81,55 78,55 C75,55 75,52 78,52 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M60,78 C63,78 63,81 60,81 C57,81 57,78 60,78 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M88,72 C91,72 91,74 88,74 C85,74 85,72 88,72 Z" />
+</vector>

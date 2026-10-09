@@ -1,0 +1,6 @@
+{
+  "name": "Uzhavan Market",
+  "description": "From Farmer to Market, Fairly - Farmer-first marketplace, mandi intelligence, and price advisor",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Eggplant / Brinjal Body -->
+    <path android:pathData="M60,35 C42,35 28,52 28,82 C28,102 42,115 60,115 C78,115 92,102 92,82 C92,52 78,35 60,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="80"
+                android:endY="115"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#5E35B1" />
+                <item android:offset="0.5" android:color="#4527A0" />
+                <item android:offset="1.0" android:color="#281466" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Highlight -->
+    <path
+        android:fillColor="#44EDE7F6"
+        android:pathData="M38,65 C36,75 42,95 48,92 C44,80 40,70 40,65 Z" />
+    <!-- Green Calyx Cap -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M60,35 L72,48 L65,46 L62,54 L58,46 L50,52 L54,42 L42,46 L52,38 Z" />
+    <!-- Stem -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,35 C58,25 64,15 72,12" />
+</vector>

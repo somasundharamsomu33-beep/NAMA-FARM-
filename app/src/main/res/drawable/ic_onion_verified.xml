@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Onion Bulb Outer Body -->
+    <path android:pathData="M60,22 C42,22 22,46 22,74 C22,98 38,114 60,114 C82,114 98,98 98,74 C98,46 78,22 60,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="30"
+                android:endX="80"
+                android:endY="110"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#BA68C8" />
+                <item android:offset="0.4" android:color="#8E24AA" />
+                <item android:offset="0.8" android:color="#6A1B9A" />
+                <item android:offset="1.0" android:color="#4A148C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Characteristic Onion Striations / Skin Curves -->
+    <path
+        android:strokeColor="#BA68C8"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M60,24 C48,40 40,65 40,85 C40,98 48,110 60,112" />
+    <path
+        android:strokeColor="#CE93D8"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M60,24 C72,40 80,65 80,85 C80,98 72,110 60,112" />
+    <!-- Glossy Highlight on side -->
+    <path
+        android:fillColor="#44FFFFFF"
+        android:pathData="M32,60 C30,75 36,90 42,88 C38,76 36,65 34,60 Z" />
+    <!-- Dry Papery Neck / Top Shoot -->
+    <path android:pathData="M56,24 C56,12 58,8 60,6 C62,8 64,12 64,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="58"
+                android:startY="6"
+                android:endX="62"
+                android:endY="24"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8D6E63" />
+                <item android:offset="1.0" android:color="#5D4037" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Roots at bottom -->
+    <path
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M56,114 L54,118 M60,114 L60,119 M64,114 L66,118" />
+</vector>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="180dp"
+    android:viewportWidth="360"
+    android:viewportHeight="180">
+    <!-- Sky Background -->
+    <path android:pathData="M0,0h360v180h-360z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="0"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E8F5E9" />
+                <item android:offset="0.5" android:color="#C8E6C9" />
+                <item android:offset="1.0" android:color="#A5D6A7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Distant Mountain Ridges -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M0,120 Q90,90 180,110 T360,95 L360,180 L0,180 Z" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M0,135 Q100,115 220,130 T360,120 L360,180 L0,180 Z" />
+    <!-- Golden Morning Sun -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M310,45 A25,25 0 1,1 260,45 A25,25 0 1,1 310,45 Z" />
+    <!-- Rolling Green Crop Fields Foreground -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M0,150 Q120,130 260,145 T360,140 L360,180 L0,180 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M0,165 Q150,150 360,160 L360,180 L0,180 Z" />
+    <!-- Stylized Farmer Figure (Right side) -->
+    <!-- Torso / Yellow-Ochre Kurta -->
+    <path
+        android:fillColor="#FBC02D"
+        android:pathData="M290,120 C280,120 274,126 270,145 L310,145 C306,126 300,120 290,120 Z" />
+    <!-- Farmer Head / Skin -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M290,105 A8,8 0 1,1 274,105 A8,8 0 1,1 290,105 Z" />
+    <!-- Farmer Hat / Turban / Scarf -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M272,98 C276,92 294,92 298,98 C294,103 276,103 272,98 Z" />
+    <!-- Farmer holding phone or basket -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M296,128 L304,124" />
+</vector>
